@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/julzb/Documents/GitHub/Wizardz/Content/Blueprints/Attributes/BPC_Attributes.uasset",
+				"C:/Users/julzb/Documents/GitHub/Wizardz/Content/Blueprints/Abilities/BP_Ability.uasset",
+				"C:/Users/julzb/Documents/GitHub/Wizardz/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/julzb/Documents/GitHub/Wizardz/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/XB/LDTNE24GDSJKWK1ECT0ZR4.uasset",
+				"C:/Users/julzb/Documents/GitHub/Wizardz/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/GI/TQNEF1SV9MWCP66Z3SZFFQ.uasset",
+				"C:/Users/julzb/Documents/GitHub/Wizardz/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset",
 				"C:/Users/Aaron/Documents/Unreal Projects/SummerGame 5.3/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"C:/Users/Aaron/Documents/Unreal Projects/SummerGame 5.3/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/GI/TQNEF1SV9MWCP66Z3SZFFQ.uasset",
 				"C:/Users/Aaron/Documents/Unreal Projects/SummerGame 5.3/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
