@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>DE980CB540C4BAA1115563BB94FADE23</ExecutionGuid>
+		<CrashGUID>UECC-Windows-9FCC93334420EE08A52976970F5E64AD_0000</CrashGUID>
+		<IsEnsure>true</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<ErrorMessage>Ensure condition failed: LocalState.GetWriterThreadId() == CurrentThreadId [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Misc\MTAccessDetector.h] [Line: 589] Data race detected: acquiring write access on thread 25256 concurrently with 1 writers on thread 8412: Current thread 25256 callstack: 0x00007ffb19cb9f11 UnrealEditor-LiveCoding.dll!UnknownFunction [] 0x00007ffb19cd5b9c UnrealEditor-LiveCoding.dll!UnknownFunction [] 0x00007ffb19cab120 UnrealEditor-LiveCoding.dll!UnknownFunction [] 0x00007ffb19ca2a74 UnrealEditor-LiveCoding.dll!UnknownFunction [] 0x00007ffb19cc51e8 UnrealEditor-LiveCoding.dll!UnknownFunction [] 0x00007ffb19cb8b0c UnrealEditor-LiveCoding.dll!UnknownFunction [] 0x00007ffb6bf7227d UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffb6bf7afd3 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffb6bf88cd5 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffb6bf88a7c UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffb6bf680e2 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffb6bfb08c2 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffb6bf78b60 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffb6c15f773 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffb6c594e32 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffb6c588667 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffc2ec6e8d7 KERNEL32.DLL!UnknownFunction [] 0x00007ffc2f4bbf2c ntdll.dll!UnknownFunction [] Writer thread 8412 callstack: 0x00007ffc2f560114 ntdll.dll!UnknownFunction [] 0x00007ffc2f4d79a1 ntdll.dll!UnknownFunction [] 0x00007ffc2f424411 ntdll.dll!UnknownFunction [] 0x00007ffc2f424827 ntdll.dll!UnknownFunction [] 0x00007ffc2cde59a6 KERNELBASE.dll!UnknownFunction [] 0x00007ffb6c58b43b UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffb6c586ca3 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffb6c3a57af UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffbbb3987ee UnrealEditor-Projects.dll!UnknownFunction [] 0x00007ffbbb3b56c3 UnrealEditor-Projects.dll!UnknownFunction [] 0x00007ffbbb39801a UnrealEdito</ErrorMessage>
+		<CrashReporterMessage />
+		<AttendedStatus>Attended</AttendedStatus>
+		<ProcessId>24572</ProcessId>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsWithDebugInfo>true</IsWithDebugInfo>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Wizardz</GameName>
+		<ExecutableName>UnrealEditor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>WindowsEditor</PlatformName>
+		<PlatformFullName>Win64 [Windows 11 (24H2) [10.0.26100.3194]  64b]</PlatformFullName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.3.2-29314046+++UE5+Release-5.3</EngineVersion>
+		<EngineCompatibleVersion>5.3.2-29314046+++UE5+Release-5.3</EngineCompatibleVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en-GB</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.3-CL-29314046</BuildVersion>
+		<Symbols>**UE5*Release-5.3-CL-29314046-Win64-Development</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>C:/Program Files/Epic Games/UE_5.3/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_5.3/</RootDir>
+		<MachineId>6B549276474F218807C82287F0B95D47</MachineId>
+		<LoginId>6b549276474f218807c82287f0b95d47</LoginId>
+		<EpicAccountId>76689d6fe4ef4d359794b68244c7618b</EpicAccountId>
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>8</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>12th Gen Intel(R) Core(TM) i5-12450HX</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) UHD Graphics</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 11 (24H2) [10.0.26100.3194]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>16873545728</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>31369060352</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>6496911360</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>13602848768</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1462341632</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1462341632</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>1658195968</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>1658232832</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>7</NumMinidumpFramesToIgnore>
+		<CallStack />
+		<PCallStack>UnrealEditor-LiveCoding 0x00007ffb19ca0000 + b120 UnrealEditor-LiveCoding 0x00007ffb19ca0000 + 2a74 UnrealEditor-LiveCoding 0x00007ffb19ca0000 + 251e8 UnrealEditor-LiveCoding 0x00007ffb19ca0000 + 18b0c UnrealEditor-Core 0x00007ffb6bf10000 + 6227d UnrealEditor-Core 0x00007ffb6bf10000 + 6afd3 UnrealEditor-Core 0x00007ffb6bf10000 + 78cd5 UnrealEditor-Core 0x00007ffb6bf10000 + 78a7c UnrealEditor-Core 0x00007ffb6bf10000 + 580e2 UnrealEditor-Core 0x00007ffb6bf10000 + a08c2 UnrealEditor-Core 0x00007ffb6bf10000 + 68b60 UnrealEditor-Core 0x00007ffb6bf10000 + 24f773 UnrealEditor-Core 0x00007ffb6bf10000 + 684e32 UnrealEditor-Core 0x00007ffb6bf10000 + 678667 KERNEL32 0x00007ffc2ec40000 + 2e8d7 ntdll 0x00007ffc2f400000 + bbf2c</PCallStack>
+		<PCallStackHash>5B3599C6FC58BEEADF2600D262247DD31CEFB152</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>KERNELBASE 0x00007ffc2cdb0000 + cbb0a UnrealEditor-Core 0x00007ffb6bf10000 + 6038f8 UnrealEditor-Core 0x00007ffb6bf10000 + 60372b UnrealEditor-Core 0x00007ffb6bf10000 + 3a64a7 UnrealEditor-Core 0x00007ffb6bf10000 + 3bf325 UnrealEditor-Core 0x00007ffb6bf10000 + c996f2 UnrealEditor-LiveCoding 0x00007ffb19ca0000 + 35c1b UnrealEditor-LiveCoding 0x00007ffb19ca0000 + b120 UnrealEditor-LiveCoding 0x00007ffb19ca0000 + 2a74 UnrealEditor-LiveCoding 0x00007ffb19ca0000 + 251e8 UnrealEditor-LiveCoding 0x00007ffb19ca0000 + 18b0c UnrealEditor-Core 0x00007ffb6bf10000 + 6227d UnrealEditor-Core 0x00007ffb6bf10000 + 6afd3 UnrealEditor-Core 0x00007ffb6bf10000 + 78cd5 UnrealEditor-Core 0x00007ffb6bf10000 + 78a7c UnrealEditor-Core 0x00007ffb6bf10000 + 580e2 UnrealEditor-Core 0x00007ffb6bf10000 + a08c2 UnrealEditor-Core 0x00007ffb6bf10000 + 68b60 UnrealEditor-Core 0x00007ffb6bf10000 + 24f773 UnrealEditor-Core 0x00007ffb6bf10000 + 684e32 UnrealEditor-Core 0x00007ffb6bf10000 + 678667 KERNEL32 0x00007ffc2ec40000 + 2e8d7 ntdll 0x00007ffc2f400000 + bbf2c</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>25256</ThreadID>
+				<ThreadName>Foreground Worker #0</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638773003175890000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<CPUBrand>12th Gen Intel(R) Core(TM) i5-12450HX</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>true</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsEditorNo errors</MatchingDPStatus>
+		<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.D3DDebug>false</RHI.D3DDebug>
+		<RHI.Breadcrumbs>true</RHI.Breadcrumbs>
+		<RHI.DRED>false</RHI.DRED>
+		<RHI.DREDMarkersOnly>true</RHI.DREDMarkersOnly>
+		<RHI.DREDContext>false</RHI.DREDContext>
+		<RHI.Aftermath>true</RHI.Aftermath>
+		<RHI.RHIName>D3D12</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce RTX 4050 Laptop GPU</RHI.AdapterName>
+		<RHI.UserDriverVersion>572.70</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>32.0.15.7270</RHI.InternalDriverVersion>
+		<RHI.DriverDate>3-3-2025</RHI.DriverDate>
+		<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+		<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+		<RHI.DeviceId>28E1</RHI.DeviceId>
+		<DeviceProfile.Name>WindowsEditor</DeviceProfile.Name>
+	</EngineData>
+	<GameData />
+</FGenericCrashContext>
