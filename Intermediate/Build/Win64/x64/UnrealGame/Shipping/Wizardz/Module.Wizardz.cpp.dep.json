@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\aaron\\documents\\github\\wizardz\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\wizardz\\module.wizardz.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\aaron\\documents\\github\\wizardz\\intermediate\\build\\win64\\x64\\wizardz\\shipping\\core\\sharedpch.core.cpp17.h.pch",
+        "Includes": [
+            "c:\\users\\aaron\\documents\\github\\wizardz\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\wizardz\\definitions.wizardz.h",
+            "c:\\users\\aaron\\documents\\github\\wizardz\\intermediate\\source\\wizardz.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

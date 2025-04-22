@@ -26,6 +26,13 @@
 			]
 		},
 		{
+			"ShaderMapHash": "4BF21E06A87F0F4E58E739EB4D19555BA368D2BC",
+			"Assets": [
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_ShootingVfxPack/Materials/M_Smoke",
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_StylizedAttacksPack/Materials/M_Smoke_01"
+			]
+		},
+		{
 			"ShaderMapHash": "DAA16F0712DC83866081B2AE5B58EBA8C1B0AA91",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_ClearCoat_Opaque_DS"
@@ -40,7 +47,7 @@
 		{
 			"ShaderMapHash": "15204B09AA51F6285246A84DA0E8D1CCC6D5DB9C",
 			"Assets": [
-				"/Game/FXVarietyPack/Materials/M_ky_subUV01"
+				"/Game/VFX/FXVarietyPack/Materials/M_ky_subUV01"
 			]
 		},
 		{
@@ -52,7 +59,13 @@
 		{
 			"ShaderMapHash": "4C7DC909043E8C948B5EEA15C0E7AF9FF1BE16ED",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_DecalCrater28dn"
+				"/Game/VFX/WizardSpellsPack/Materials/M_DecalCrater28dn"
+			]
+		},
+		{
+			"ShaderMapHash": "55BA1A0A57711A8F4A7E7B1779AFA54B93893F58",
+			"Assets": [
+				"/MovieRenderPipeline/Materials/MovieRenderQueue_MotionVectors"
 			]
 		},
 		{
@@ -70,7 +83,7 @@
 		{
 			"ShaderMapHash": "0171A61048085104EF20245EFC9FF500E3F481D7",
 			"Assets": [
-				"/Game/SKnight_modular/Skeleton_Knight_01/materials/M_SKnigh_01_armor"
+				"/Game/Blueprints/AI/Meshs/SKnight_modular/Skeleton_Knight_01/materials/M_SKnigh_01_armor"
 			]
 		},
 		{
@@ -92,6 +105,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "BB5D5C1473FC69AA9BF10C80E92E7ECB0EF151F9",
+			"Assets": [
+				"/Game/GoodSky/Resource/Materials/M_GoodSky_Sun_Stars"
+			]
+		},
+		{
 			"ShaderMapHash": "8B798E152D119F01D06FCEC42A9DE1E67E21AD14",
 			"Assets": [
 				"/Game/Blueprints/Abilities/NS_DamageNumbers"
@@ -106,13 +125,19 @@
 		{
 			"ShaderMapHash": "CB640716381302B3475A324D1CE6AA263E15352A",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_Lightning10b"
+				"/Game/VFX/WizardSpellsPack/Materials/M_Lightning10b"
 			]
 		},
 		{
 			"ShaderMapHash": "ED3C7F18149F614CCCBAF4C23342728E4306A946",
 			"Assets": [
 				"/Engine/EngineMaterials/Widget3DPassThrough_Masked"
+			]
+		},
+		{
+			"ShaderMapHash": "DCC4AE190DDDE9ABC4325B58CA374F002EBED08B",
+			"Assets": [
+				"/Niagara/DefaultAssets/DefaultRIbbonMaterial"
 			]
 		},
 		{
@@ -136,7 +161,7 @@
 		{
 			"ShaderMapHash": "CB5D59224C373A4C9F42CE19403B613544E088C9",
 			"Assets": [
-				"/Game/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/M_Master_AoRoughMet"
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/M_Master_AoRoughMet"
 			]
 		},
 		{
@@ -178,14 +203,34 @@
 		{
 			"ShaderMapHash": "422E01316A18E37C984A3A97F8C05FC883B91D88",
 			"Assets": [
-				"/Game/FXVarietyPack/Materials/MI_ky_starDust_dis"
+				"/Game/VFX/FXVarietyPack/Materials/MI_ky_starDust_dis"
+			]
+		},
+		{
+			"ShaderMapHash": "06E25B3205503A68F8D56C55A3F5739EFEE914BE",
+			"Assets": [
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_StylizedAttacksPack/Materials/M_Meteor"
+			]
+		},
+		{
+			"ShaderMapHash": "C259DD32EC3ABD18C45D45E477FB3B22D7820B26",
+			"Assets": [
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Projectilevfx/Vfx/Materials/M_Simple_Bram"
+			]
+		},
+		{
+			"ShaderMapHash": "D0350135788A414EC7E9516C1214A83C34D57F68",
+			"Assets": [
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Projectilevfx/Vfx/Materials/M_ABNiagara"
 			]
 		},
 		{
 			"ShaderMapHash": "EECEFE364E12380F445F60246B553286277C7FC9",
 			"Assets": [
-				"/Game/WizardSpellsPack/sA_Megapack_v1/sA_PickupSet_1/Materials/M_AdditiveScrollNiagara",
-				"/Game/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/M_AdditiveScrollNiagara"
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_PickupSet_1/Materials/M_AdditiveScrollNiagara",
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Projectilevfx/Vfx/Materials/M_AdditiveScrollNiagara",
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_AdditiveScrollNiagara",
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/M_AdditiveScrollNiagara"
 			]
 		},
 		{
@@ -196,9 +241,27 @@
 			]
 		},
 		{
+			"ShaderMapHash": "0E0D383A7E051644F2C3D9B2C930DCE9809AB852",
+			"Assets": [
+				"/MovieRenderPipeline/Materials/MovieRenderQueue_WorldDepth"
+			]
+		},
+		{
 			"ShaderMapHash": "1098483A30028582E21A02F2A53B7F10F8406478",
 			"Assets": [
 				"/Game/MedievalDungeon/Materials/M_Candles_Inst"
+			]
+		},
+		{
+			"ShaderMapHash": "66C9BD3B45B9B468976E682C9FCCD702499556F8",
+			"Assets": [
+				"/LockOnTarget/M_TargetWidget"
+			]
+		},
+		{
+			"ShaderMapHash": "1FBC4D3C3FB0667B3A107D324B9845A6907B4756",
+			"Assets": [
+				"/Game/Blueprints/AI/Meshs/SKnight_modular/Skeleton_Knight_04/materials/M_SKnigh_armor"
 			]
 		},
 		{
@@ -208,15 +271,33 @@
 			]
 		},
 		{
+			"ShaderMapHash": "A6D2F03CA2DED2445B2B720E3557112079B6B1AD",
+			"Assets": [
+				"/Game/VFX/WizardSpellsPack/Materials/M_Gradient17bd"
+			]
+		},
+		{
 			"ShaderMapHash": "3D308F3DCAC42DC4315F60C4FEB36F4D6A968423",
 			"Assets": [
 				"/Game/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_2Sided_Master"
 			]
 		},
 		{
+			"ShaderMapHash": "54EFFA3DEECBDB08581F13B376F4DEA5B3C657B1",
+			"Assets": [
+				"/Game/FXVarietyPack/Materials/M_ky_Fresnel"
+			]
+		},
+		{
 			"ShaderMapHash": "B42DFD3E6D57209A942B07F157D676BA3EAF29DA",
 			"Assets": [
 				"/Engine/EngineMaterials/DefaultLightFunctionMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "576AFE3FB4E272607E2A5DE9D3837FB2D884C09D",
+			"Assets": [
+				"/Game/VFX/WizardSpellsPack/Materials/M_MagicText6a"
 			]
 		},
 		{
@@ -257,6 +338,18 @@
 			]
 		},
 		{
+			"ShaderMapHash": "30D6B246DE5B762CDC6906483BE0D2DC5C3A2488",
+			"Assets": [
+				"/Game/MedievalDungeon/Materials/M_Statue"
+			]
+		},
+		{
+			"ShaderMapHash": "82D0E446E0747B1FE33D6AB1B18136CBF1AABDCA",
+			"Assets": [
+				"/Game/ParagonGideon/FX/Materials/Water/M_Water_Impact_ImpactSplash"
+			]
+		},
+		{
 			"ShaderMapHash": "33A8D147EF0375454C59CA6C643345594E75FFC7",
 			"Assets": [
 				"/Engine/EngineDebugMaterials/DebugMeshMaterial"
@@ -271,7 +364,7 @@
 		{
 			"ShaderMapHash": "06BC164A53A4E2A4C33F5108865A608EFE54F949",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_Lightning10l"
+				"/Game/VFX/WizardSpellsPack/Materials/M_Lightning10l"
 			]
 		},
 		{
@@ -283,19 +376,27 @@
 		{
 			"ShaderMapHash": "1CC9244B632D1F94E698A925C1AC79526E973E65",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_DecalCrater64"
+				"/Game/VFX/WizardSpellsPack/Materials/M_DecalCrater64"
 			]
 		},
 		{
 			"ShaderMapHash": "14CB214C251805CBA9617CA352F1952525017C72",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_Trail29a3"
+				"/Game/VFX/WizardSpellsPack/Materials/M_Trail29a3"
 			]
 		},
 		{
 			"ShaderMapHash": "53A0864C9FA6A1A5F02E1AF7F8DC90201C441903",
 			"Assets": [
+				"/Game/MedievalDungeon/Materials/M_Flicker_Light_Function",
 				"/Game/MedievalDungeon/Materials/M_Torch_Flicker_Light_Function"
+			]
+		},
+		{
+			"ShaderMapHash": "8BAA304DD93302158E206FADEDBF87851EE0E4B8",
+			"Assets": [
+				"/Game/FXVarietyPack/Materials/M_ky_flare_flash",
+				"/Game/VFX/FXVarietyPack/Materials/M_ky_flare_flash"
 			]
 		},
 		{
@@ -307,49 +408,62 @@
 		{
 			"ShaderMapHash": "A06834527DCF0DBD9E4DDCCFB8BD4C823DADCE87",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_Lightning15l"
+				"/Game/VFX/WizardSpellsPack/Materials/M_Lightning15l"
 			]
 		},
 		{
 			"ShaderMapHash": "3874F6558130674BA7806B8CF24712F57B6CFB4B",
 			"Assets": [
+				"/Game/MedievalDungeon/Materials/M_Candle_Holder_Inst",
 				"/Game/MedievalDungeon/Materials/M_Chains_Inst"
 			]
 		},
 		{
 			"ShaderMapHash": "C85637575D7FF4753DF2410A505E4DF6389C9B7B",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_EmberExpl_1"
+				"/Game/VFX/WizardSpellsPack/Materials/M_EmberExpl_1"
 			]
 		},
 		{
 			"ShaderMapHash": "EB7DA157863AFB2DFC8C239F4FD3632ED7A60B3C",
 			"Assets": [
-				"/Game/SKnight_modular/Skeleton_Knight_06/materials/M_SKnigh_06_armor"
+				"/Game/Blueprints/AI/Meshs/SKnight_modular/Skeleton_Knight_06/materials/M_SKnigh_06_armor"
 			]
 		},
 		{
 			"ShaderMapHash": "88B164581023003D366BAB6BDED5546B4A32C093",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_TwoSides21"
+				"/Game/VFX/WizardSpellsPack/Materials/M_TwoSides21"
+			]
+		},
+		{
+			"ShaderMapHash": "BE2A375905D0D0210A87A76D2955FBC01857C57D",
+			"Assets": [
+				"/Game/MedievalDungeon/Materials/M_Skeleton_Dirty"
 			]
 		},
 		{
 			"ShaderMapHash": "1A6B085AAE110C41280E508BDD183D7D79E4F99A",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_Ice4"
+				"/Game/VFX/WizardSpellsPack/Materials/M_Ice4"
 			]
 		},
 		{
 			"ShaderMapHash": "95A37D5C9E92C1B30D570109ED2CD13D11773BF4",
 			"Assets": [
-				"/Game/WizardSpellsPack/sA_Megapack_v1/sA_PickupSet_1/Materials/M_Master_Fresnel"
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_PickupSet_1/Materials/M_Master_Fresnel"
+			]
+		},
+		{
+			"ShaderMapHash": "5DB6FB5DF2499E5D444133B6A94EF85DAA5C93D4",
+			"Assets": [
+				"/Game/FXVarietyPack/Materials/M_ky_magicCircle020"
 			]
 		},
 		{
 			"ShaderMapHash": "FD5694610B4257E0C79F532D756899C5C04307DC",
 			"Assets": [
-				"/Game/AIStuff/ParagonSparrow/FX/Materials/Energy/Plasma/M_Plasma_v5_Flipbook2"
+				"/Game/Blueprints/AI/ParagonSparrow/FX/Materials/Energy/Plasma/M_Plasma_v5_Flipbook2"
 			]
 		},
 		{
@@ -361,7 +475,7 @@
 		{
 			"ShaderMapHash": "52833063A85B9036023D9273800DC86CCF2937AD",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_Noise53b"
+				"/Game/VFX/WizardSpellsPack/Materials/M_Noise53b"
 			]
 		},
 		{
@@ -402,9 +516,21 @@
 			]
 		},
 		{
+			"ShaderMapHash": "4A9DC7692F331F0CFB988D7A7FB25346D960A325",
+			"Assets": [
+				"/Game/ParagonGideon/FX/Materials/Heroes/Gideon/M_Fireball_Unlit_Purple"
+			]
+		},
+		{
 			"ShaderMapHash": "FD9D826A181223FFA8973616259762977E852C47",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_Default_Blend"
+			]
+		},
+		{
+			"ShaderMapHash": "539C2E6BAA2790C7E09A144A915B18F896ECC9E6",
+			"Assets": [
+				"/Game/MedievalDungeon/Particles/Materials/M_CandleFlame"
 			]
 		},
 		{
@@ -416,7 +542,7 @@
 		{
 			"ShaderMapHash": "09211E6F859EE2696825B2BE7B056627052FC431",
 			"Assets": [
-				"/Game/AIStuff/ParagonSparrow/FX/Materials/Heroes/Sparrow/Abilities/M_Sparrow_Primary_Shockwave"
+				"/Game/Blueprints/AI/ParagonSparrow/FX/Materials/Heroes/Sparrow/Abilities/M_Sparrow_Primary_Shockwave"
 			]
 		},
 		{
@@ -428,7 +554,7 @@
 		{
 			"ShaderMapHash": "F9B72570959F7CF606F5F21AA93CDFED0A7B8702",
 			"Assets": [
-				"/Game/SKnight_modular/Skeleton_Knight_02/materials/M_SKnigh_02_armor"
+				"/Game/Blueprints/AI/Meshs/SKnight_modular/Skeleton_Knight_02/materials/M_SKnigh_02_armor"
 			]
 		},
 		{
@@ -440,7 +566,8 @@
 		{
 			"ShaderMapHash": "11639E70349760D00AC0FD20C0C4AA3E0FDC9D78",
 			"Assets": [
-				"/Game/FXVarietyPack/Materials/M_ky_empty"
+				"/Game/FXVarietyPack/Materials/M_ky_empty",
+				"/Game/VFX/FXVarietyPack/Materials/M_ky_empty"
 			]
 		},
 		{
@@ -452,19 +579,43 @@
 		{
 			"ShaderMapHash": "9748C670B0373C1A459F19DAD9F8D6499A8A22DE",
 			"Assets": [
-				"/Game/FXVarietyPack/Materials/MI_ky_circle9_4x4c2"
+				"/Game/VFX/FXVarietyPack/Materials/MI_ky_circle9_4x4c2"
+			]
+		},
+		{
+			"ShaderMapHash": "771385719B596F7AC892633CFE20F040FE07C0F0",
+			"Assets": [
+				"/Game/GoodSky/Resource/Materials/M_GoodSky_Storm"
+			]
+		},
+		{
+			"ShaderMapHash": "1FAC0872A983B5BA04E05E159675317E9EB9203E",
+			"Assets": [
+				"/Game/FXVarietyPack/Materials/MI_ky_circleDust"
+			]
+		},
+		{
+			"ShaderMapHash": "14DB3E748911862AF83686F3607642F790E5D55E",
+			"Assets": [
+				"/Game/AOE/Decals/Decal_AOE"
 			]
 		},
 		{
 			"ShaderMapHash": "D01FBB749C0A93FCDFD5C41728B23BFE147B5BB9",
 			"Assets": [
-				"/Game/SKnight_modular/Skeleton/materials/M_Skeleton"
+				"/Game/Blueprints/AI/Meshs/SKnight_modular/Skeleton/materials/M_Skeleton"
 			]
 		},
 		{
 			"ShaderMapHash": "10590077E41CFB3E2CBAD7CCBCC6142B6FE08A55",
 			"Assets": [
 				"/Game/PlayerCharacter/Materials/M_Mage_Eyelash"
+			]
+		},
+		{
+			"ShaderMapHash": "74EFD87963BB10BB43D4F6C8292E51ADE05D7FBF",
+			"Assets": [
+				"/Engine/EngineMaterials/EditorBrushMaterial"
 			]
 		},
 		{
@@ -486,6 +637,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "1B17BD7C2C8088F6F3E373EEE3BC73E876DA981E",
+			"Assets": [
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_StylizedAttacksPack/Materials/M_RadialGradient_1"
+			]
+		},
+		{
 			"ShaderMapHash": "03581B7D29A37166FC1E6B8AA659A6E67088A2EA",
 			"Assets": [
 				"/Game/MedievalDungeon/Materials/M_BrickFloor_Clean_Inst",
@@ -495,7 +652,7 @@
 		{
 			"ShaderMapHash": "48B66B7D18E466495F0018CDB9B0F7E94629C80C",
 			"Assets": [
-				"/Game/SKnight_modular/Skeleton_Knight_06/materials/M_SKnigh_06_armor"
+				"/Game/Blueprints/AI/Meshs/SKnight_modular/Skeleton_Knight_06/materials/M_SKnigh_06_armor"
 			]
 		},
 		{
@@ -525,7 +682,13 @@
 		{
 			"ShaderMapHash": "FD881380837A46395778600326A2FF9C3F1BAB7D",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_Circle116a"
+				"/Game/VFX/WizardSpellsPack/Materials/M_Circle116a"
+			]
+		},
+		{
+			"ShaderMapHash": "2090BC81922D093477EBF36B530C6A618F7F0949",
+			"Assets": [
+				"/Game/VFX/WizardSpellsPack/Materials/M_Trail21a"
 			]
 		},
 		{
@@ -537,23 +700,41 @@
 		{
 			"ShaderMapHash": "85DF8C85F9D71E6300DEBF5CC7FA1021940C7860",
 			"Assets": [
-				"/Game/WizardSpellsPack/sA_Megapack_v1/sA_PickupSet_1/Materials/M_sA_Aura",
-				"/Game/WizardSpellsPack/sA_Megapack_v1/sA_PickupSet_1/Materials/MI_Aura_1",
-				"/Game/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_sA_Aura",
-				"/Game/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/M_sA_Aura",
-				"/Game/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/MI_Aura_1"
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_PickupSet_1/Materials/M_sA_Aura",
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_PickupSet_1/Materials/MI_Aura_1",
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_sA_Aura",
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/M_sA_Aura",
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/MI_Aura_1"
+			]
+		},
+		{
+			"ShaderMapHash": "B06D61861C2759CBEE080A5046F44716ED29A4CA",
+			"Assets": [
+				"/Game/GoodSky/Resource/Materials/M_GoodSky_Base"
+			]
+		},
+		{
+			"ShaderMapHash": "41A3D887FFFC8C2DA2968B243BBAAF9A23572436",
+			"Assets": [
+				"/Game/GoodSky/Resource/Materials/M_GoodSky_Sun_Stars_Moon"
 			]
 		},
 		{
 			"ShaderMapHash": "8582A48B56E082FA9D0D070E37D21B3789B9F54A",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_Crack6b"
+				"/Game/VFX/WizardSpellsPack/Materials/M_Crack6b"
+			]
+		},
+		{
+			"ShaderMapHash": "7448A68BCCC13B60007277D3C25857448C6A3DC1",
+			"Assets": [
+				"/Game/ParagonGideon/FX/Materials/Smoke/M_WispySmokeTest"
 			]
 		},
 		{
 			"ShaderMapHash": "7880B18CAC972415582E85C1CDAA55C952DAC8FB",
 			"Assets": [
-				"/Game/FXVarietyPack/Materials/M_ky_auraWall02"
+				"/Game/VFX/FXVarietyPack/Materials/M_ky_auraWall02"
 			]
 		},
 		{
@@ -571,7 +752,7 @@
 		{
 			"ShaderMapHash": "C93D9A8E1B716F1BE9641B5B9CBCAA016F004E0C",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_DistortionParticle"
+				"/Game/VFX/WizardSpellsPack/Materials/M_DistortionParticle"
 			]
 		},
 		{
@@ -589,7 +770,14 @@
 		{
 			"ShaderMapHash": "15471694285F343FC71071491C03C60867FE90A9",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_Stone3b"
+				"/Game/VFX/WizardSpellsPack/Materials/M_Stone3b"
+			]
+		},
+		{
+			"ShaderMapHash": "41522A984CBB1323FBADCC154B07D2A534C2F230",
+			"Assets": [
+				"/Game/FXVarietyPack/Materials/M_ky_subUV_dynRGB",
+				"/Game/VFX/FXVarietyPack/Materials/M_ky_subUV_dynRGB"
 			]
 		},
 		{
@@ -611,6 +799,13 @@
 			]
 		},
 		{
+			"ShaderMapHash": "7E9E4A9B596197413D95310DDE0F6983EF81C5F5",
+			"Assets": [
+				"/Game/FXVarietyPack/Materials/MI_ky_flare_flash_trs",
+				"/Game/VFX/FXVarietyPack/Materials/MI_ky_flare_flash_trs"
+			]
+		},
+		{
 			"ShaderMapHash": "82E6DC9C596DD6AAA8C097ED02381484874420E5",
 			"Assets": [
 				"/Paper2D/OpaqueUnlitSpriteMaterial"
@@ -619,20 +814,22 @@
 		{
 			"ShaderMapHash": "07FE1D9FDD589B2861C65FC41F0956CA1F5D5475",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/MI_Crater36b",
-				"/Game/WizardSpellsPack/Materials/MI_Crater37b",
-				"/Game/WizardSpellsPack/Materials/MI_Flare21b",
-				"/Game/WizardSpellsPack/Materials/MI_Glow1a",
-				"/Game/WizardSpellsPack/Materials/MI_MagicCircle57b",
-				"/Game/WizardSpellsPack/Materials/MI_MagicCircle60b",
-				"/Game/WizardSpellsPack/Materials/MI_Object5b",
-				"/Game/WizardSpellsPack/Materials/MI_Point11b",
-				"/Game/WizardSpellsPack/Materials/MI_Point12b",
-				"/Game/WizardSpellsPack/Materials/MI_Smoke17b",
-				"/Game/WizardSpellsPack/Materials/MI_Smoke24b",
-				"/Game/WizardSpellsPack/Materials/MI_Smoke27b",
-				"/Game/WizardSpellsPack/Materials/MI_Snow4b",
-				"/Game/WizardSpellsPack/Materials/MI_Trail55b"
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Crater36b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Crater37b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Flare21b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Glow1a",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Leaf9b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_MagicCircle57b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_MagicCircle60b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Object5b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Point11b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Point12b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Smoke17b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Smoke24b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Smoke27b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Snow4b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Trail21b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Trail55b"
 			]
 		},
 		{
@@ -644,25 +841,31 @@
 		{
 			"ShaderMapHash": "40F666A136C2DA0A6FF27C0655E66FFD50C29A62",
 			"Assets": [
-				"/Game/SKnight_modular/Skeleton/materials/M_Skeleton"
+				"/Game/Blueprints/AI/Meshs/SKnight_modular/Skeleton/materials/M_Skeleton"
 			]
 		},
 		{
 			"ShaderMapHash": "3D5C47A2C2336A8FDA7AF0504E549DD19F9540F8",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_Ice3"
+				"/Game/VFX/WizardSpellsPack/Materials/M_Ice3"
 			]
 		},
 		{
 			"ShaderMapHash": "6968A8A3DA7A9E988B21AE553FB582963F023B0F",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_FireF4"
+				"/Game/VFX/WizardSpellsPack/Materials/M_FireF4"
+			]
+		},
+		{
+			"ShaderMapHash": "95798DA427DC397F74F9C16157A9A34C00DEF3A6",
+			"Assets": [
+				"/Game/FXVarietyPack/Materials/M_ky_circle01_4x4G_nonD"
 			]
 		},
 		{
 			"ShaderMapHash": "9C3B2DA51D511DE845A6DF105FBC4E692D00CDEE",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_Gradient17a"
+				"/Game/VFX/WizardSpellsPack/Materials/M_Gradient17a"
 			]
 		},
 		{
@@ -680,7 +883,9 @@
 		{
 			"ShaderMapHash": "44047FA9247E489751B417CD9421183407CF1872",
 			"Assets": [
-				"/Game/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_Master_RadialBeam"
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_Master_RadialBeam",
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_ShootingVfxPack/Materials/M_Master_RadialBeam",
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_StylizedAttacksPack/Materials/M_Master_RadialBeam"
 			]
 		},
 		{
@@ -692,7 +897,7 @@
 		{
 			"ShaderMapHash": "FA31E9A99A6D1F78D3364AAB3399C7311BFBAD22",
 			"Assets": [
-				"/Game/FXVarietyPack/Materials/M_ky_dust01_4x4"
+				"/Game/VFX/FXVarietyPack/Materials/M_ky_dust01_4x4"
 			]
 		},
 		{
@@ -714,6 +919,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "484E51B47BF717BC71696A04873AE6A133440904",
+			"Assets": [
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_PannerScroll"
+			]
+		},
+		{
 			"ShaderMapHash": "B3602CB5BE34B235EC8ACE178C59D95B6347228F",
 			"Assets": [
 				"/Engine/EngineMaterials/EmissiveMeshMaterial"
@@ -732,27 +943,53 @@
 			]
 		},
 		{
+			"ShaderMapHash": "9BD99BB6249900E55D72FC61E9ED753DA5EA3B11",
+			"Assets": [
+				"/Game/Blueprints/AI/Meshs/SKnight_modular/Skeleton_Knight_04/materials/M_SKnigh_armor"
+			]
+		},
+		{
+			"ShaderMapHash": "693799B8A902474922B30AF6FB1E21AAA7E0305F",
+			"Assets": [
+				"/Game/ParagonGideon/FX/Materials/Smoke/M_SplineThickenSmoke_Trails_Master"
+			]
+		},
+		{
 			"ShaderMapHash": "E3780AB90509F0D202291E2324BAE8E831143E70",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_SpecularGlossiness_Mask"
 			]
 		},
 		{
+			"ShaderMapHash": "F411EEBAD2023EE2CEBD6CFDD1787339720739D3",
+			"Assets": [
+				"/Game/FXVarietyPack/Materials/M_ky_base_turbulence",
+				"/Game/VFX/FXVarietyPack/Materials/M_ky_base_turbulence"
+			]
+		},
+		{
 			"ShaderMapHash": "DF9AEFBA05E6F85D52E56EA30A61690EEDA8A00C",
 			"Assets": [
-				"/Game/FXVarietyPack/Materials/M_ky_primitive_dyn2"
+				"/Game/FXVarietyPack/Materials/M_ky_primitive_dyn2",
+				"/Game/VFX/FXVarietyPack/Materials/M_ky_primitive_dyn2"
+			]
+		},
+		{
+			"ShaderMapHash": "52FE1BBBE0BD697B3237C901CD488006033CE03E",
+			"Assets": [
+				"/Game/ParagonGideon/FX/Materials/Water/M_Footfall_Refraction"
 			]
 		},
 		{
 			"ShaderMapHash": "A80EA8BBD8F668A4B1169B005C9422D502EF2B47",
 			"Assets": [
-				"/Game/AIStuff/ParagonSparrow/FX/Materials/Sparks/M_Spark_VelocityLerp"
+				"/Game/Blueprints/AI/ParagonSparrow/FX/Materials/Sparks/M_Spark_VelocityLerp"
 			]
 		},
 		{
 			"ShaderMapHash": "9F2B55BC3AF22F20BB9936C216F02228BAB3EBC5",
 			"Assets": [
-				"/Game/AIStuff/ParagonSparrow/FX/Materials/Heroes/M_SparrowAirglow"
+				"/Game/Blueprints/AI/ParagonSparrow/FX/Materials/Heroes/M_SparrowAirglow"
 			]
 		},
 		{
@@ -764,7 +1001,7 @@
 		{
 			"ShaderMapHash": "1DA3E6BD715A456A5407BB21AC2E0A03292FEE88",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_CircleRainbow11a"
+				"/Game/VFX/WizardSpellsPack/Materials/M_CircleRainbow11a"
 			]
 		},
 		{
@@ -774,15 +1011,27 @@
 			]
 		},
 		{
+			"ShaderMapHash": "0BDE46BFDF50D23F0B7A3FB043E73725E538CB6E",
+			"Assets": [
+				"/MovieRenderPipeline/Materials/MoviePipeline_StencilCutout"
+			]
+		},
+		{
+			"ShaderMapHash": "90741EC0ED1D713865F1E6A5D86139B3D63469B9",
+			"Assets": [
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_StylizedAttacksPack/Materials/M_Smoke"
+			]
+		},
+		{
 			"ShaderMapHash": "CECB38C0EAD1A423C1E232C9EBAC08F9F590EFEA",
 			"Assets": [
-				"/Game/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_Master_Solid_Panner"
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_Master_Solid_Panner"
 			]
 		},
 		{
 			"ShaderMapHash": "879668C01DDC1FEDDA9AEAB40E04B4138572BD52",
 			"Assets": [
-				"/Game/FXVarietyPack/Materials/M_ky_starDust"
+				"/Game/VFX/FXVarietyPack/Materials/M_ky_starDust"
 			]
 		},
 		{
@@ -794,7 +1043,13 @@
 		{
 			"ShaderMapHash": "834639C1E1033A731398F8AEFC40FF41973CB500",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_Crater29dn"
+				"/Game/VFX/WizardSpellsPack/Materials/M_Crater29dn"
+			]
+		},
+		{
+			"ShaderMapHash": "D17B7CC18A97870CB29FC2A241D7D1B25E4845AC",
+			"Assets": [
+				"/Game/FXVarietyPack/Materials/M_ky_chantDecoA"
 			]
 		},
 		{
@@ -804,15 +1059,41 @@
 			]
 		},
 		{
+			"ShaderMapHash": "A64150C24456CB7064376A413BB2A05CDABE1283",
+			"Assets": [
+				"/Game/ParagonGideon/FX/Materials/Water/M_Footfall_Ripple"
+			]
+		},
+		{
 			"ShaderMapHash": "2B8F69C215EBFD12AAF73B462E9B4CABD3858E88",
 			"Assets": [
 				"/Interchange/gltf/M_SpecularGlossiness"
 			]
 		},
 		{
+			"ShaderMapHash": "A5C49DC262DE42FD2D0FECC602D945A1DD1CB92E",
+			"Assets": [
+				"/Game/ParagonGideon/FX/Materials/Water/M_WaterMist"
+			]
+		},
+		{
+			"ShaderMapHash": "3F7656C3B89A404620B2F0B2A9B5975134B28651",
+			"Assets": [
+				"/Game/ParagonGideon/FX/Materials/Sparks/M_Hotdog_VLerp_DirectionTint"
+			]
+		},
+		{
+			"ShaderMapHash": "725469C4354A11A73BD819823A0C84B01C7C2331",
+			"Assets": [
+				"/MovieRenderPipeline/Blueprints/M_MoviePipelineRenderPreview"
+			]
+		},
+		{
 			"ShaderMapHash": "0649C4C457C5927FC438CA0E42073BDF2B6FB27E",
 			"Assets": [
-				"/Game/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/M_ABScrollNiagara"
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Projectilevfx/Vfx/Materials/M_ABScrollNiagara",
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_ABScrollNiagara",
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/M_ABScrollNiagara"
 			]
 		},
 		{
@@ -835,6 +1116,24 @@
 			]
 		},
 		{
+			"ShaderMapHash": "B748E1C58060C23FFF8D34688DF7A8B08E08B474",
+			"Assets": [
+				"/Game/MedievalDungeon/Materials/M_Statue_Stand_Inst"
+			]
+		},
+		{
+			"ShaderMapHash": "868628C800590C12D570C1A5A102BA1DAEE579CB",
+			"Assets": [
+				"/Game/ParagonGideon/FX/Materials/Water/M_LiquidSplash_SubUV"
+			]
+		},
+		{
+			"ShaderMapHash": "130C85C85B94205B20AE457717EDFA48A49BA264",
+			"Assets": [
+				"/Game/ParagonGideon/FX/Materials/Heroes/Gideon/M_Meteor_Fragment"
+			]
+		},
+		{
 			"ShaderMapHash": "6DF8B3C8B5BF714EB65CD0660114947E8656B66B",
 			"Assets": [
 				"/Game/ParagonGideon/FX/Materials/Heroes/Gideon/M_Projectile_Ball"
@@ -849,13 +1148,19 @@
 		{
 			"ShaderMapHash": "66C2B9CF4B13A245DBA91908B6214B0264388CD8",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_Lightning11b"
+				"/Game/VFX/WizardSpellsPack/Materials/M_Lightning11b"
+			]
+		},
+		{
+			"ShaderMapHash": "28B0F0CFBAD546F5B02F24F241EFE3A0B435F7E0",
+			"Assets": [
+				"/Game/ParagonGideon/FX/Meshes/Splines/M_Spline_Preview"
 			]
 		},
 		{
 			"ShaderMapHash": "D9CBF3D6B787490D04EB1023D9F6BA6558379129",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_LineDistort2a"
+				"/Game/VFX/WizardSpellsPack/Materials/M_LineDistort2a"
 			]
 		},
 		{
@@ -867,7 +1172,13 @@
 		{
 			"ShaderMapHash": "85BB20DAA364BF79589FFAD9AA34044973B1FC13",
 			"Assets": [
-				"/Game/SKnight_modular/Skeleton_Knight_01/materials/M_SKnigh_01_armor"
+				"/Game/Blueprints/AI/Meshs/SKnight_modular/Skeleton_Knight_01/materials/M_SKnigh_01_armor"
+			]
+		},
+		{
+			"ShaderMapHash": "C0B1D9DA6ADF86B28B7B75B7DD159BA257C54CE8",
+			"Assets": [
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_StylizedAttacksPack/Materials/M_Basic_Hit"
 			]
 		},
 		{
@@ -877,9 +1188,21 @@
 			]
 		},
 		{
+			"ShaderMapHash": "FDC7B2DB18D6A9472DCB7D4A48C3AD885C81B9D4",
+			"Assets": [
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_StylizedAttacksPack/Materials/M_Fres_Trans"
+			]
+		},
+		{
 			"ShaderMapHash": "BA2183DC6CD444C37DF5D7D38BE012BA4C422999",
 			"Assets": [
-				"/Game/SKnight_modular/Skeleton_Knight_02/materials/M_SKnigh_02_armor"
+				"/Game/Blueprints/AI/Meshs/SKnight_modular/Skeleton_Knight_02/materials/M_SKnigh_02_armor"
+			]
+		},
+		{
+			"ShaderMapHash": "1E10D2DDD503F5D9A835F5CE9F6E5486063E024B",
+			"Assets": [
+				"/Game/GoodSky/Resource/ArrowTool/M_GoodSky_SkyRing_"
 			]
 		},
 		{
@@ -901,6 +1224,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "82224FE14D9846B2B0F642619A8E3B753F70112D",
+			"Assets": [
+				"/Game/GoodSky/Resource/ArrowTool/M_GoodSky_Sun_Emissive"
+			]
+		},
+		{
 			"ShaderMapHash": "8599D5E28511A4F5740673E2AF8965ACFC2D5715",
 			"Assets": [
 				"/SpeedTreeImporter/SpeedTree9/SpeedTreeBillboardMaster"
@@ -913,6 +1242,18 @@
 			]
 		},
 		{
+			"ShaderMapHash": "2A7A4AE33F0BC01B48C08F50069C6B30772898B7",
+			"Assets": [
+				"/Game/ParagonGideon/FX/Materials/Heroes/Gideon/M_Explosion_Smoke_Spears"
+			]
+		},
+		{
+			"ShaderMapHash": "770BF9E62F1B5D7D89535CBD4A680730B4602EB0",
+			"Assets": [
+				"/Game/VFX/WizardSpellsPack/Materials/M_SmoothStar1ts"
+			]
+		},
+		{
 			"ShaderMapHash": "5C75E1E7E38D63E0B99803C5000632CA7B951FC1",
 			"Assets": [
 				"/Game/EssentialAnimation/MagicStaff/Demo/Particles/Materials/M_radial_ramp"
@@ -921,13 +1262,13 @@
 		{
 			"ShaderMapHash": "992140E85CA895ECAF65553706D6B08533714056",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_Trail55bt"
+				"/Game/VFX/WizardSpellsPack/Materials/M_Trail55bt"
 			]
 		},
 		{
 			"ShaderMapHash": "FC5A65EB200400F4F06F53D59FCFC892ECACC29F",
 			"Assets": [
-				"/Game/AIStuff/ParagonSparrow/FX/Materials/Heroes/Sparrow/Abilities/M_ArrowFlare"
+				"/Game/Blueprints/AI/ParagonSparrow/FX/Materials/Heroes/Sparrow/Abilities/M_ArrowFlare"
 			]
 		},
 		{
@@ -945,13 +1286,25 @@
 		{
 			"ShaderMapHash": "A4E4D5F190CF30133F29EE8153A57B3A79859F4E",
 			"Assets": [
-				"/Game/WizardSpellsPack/Materials/M_Smoke21b"
+				"/Game/VFX/WizardSpellsPack/Materials/M_Smoke21b"
+			]
+		},
+		{
+			"ShaderMapHash": "D3E44AF2205AAADF82810E2DEDC2AE6FDAEA6CFB",
+			"Assets": [
+				"/Game/GoodSky/Resource/Materials/M_GoodSky_Moon"
+			]
+		},
+		{
+			"ShaderMapHash": "98BAD1F24042AB0526B15EC32D1E1CBDA4D1D65F",
+			"Assets": [
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_StylizedAttacksPack/Materials/M_Ground_Crack"
 			]
 		},
 		{
 			"ShaderMapHash": "7632ADF47820231EF4FB5BEA57D6EF9988485EF3",
 			"Assets": [
-				"/Game/FXVarietyPack/Materials/MI_ky_auraWall02_two"
+				"/Game/VFX/FXVarietyPack/Materials/MI_ky_auraWall02_two"
 			]
 		},
 		{
@@ -967,6 +1320,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "12FC56F7D43E24750F6839C38916C17A392780F6",
+			"Assets": [
+				"/Game/FXVarietyPack/Materials/M_ky_base"
+			]
+		},
+		{
 			"ShaderMapHash": "CA72D0F7944C4563C70D133F64977044A60EBE0B",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_ClearCoat_Blend_DS"
@@ -975,13 +1334,20 @@
 		{
 			"ShaderMapHash": "BC2C7DFA4715FCD2CB2A4B1291FE2EDC03F8D7C0",
 			"Assets": [
-				"/Game/FXVarietyPack/Materials/M_ky_base_anime"
+				"/Game/VFX/FXVarietyPack/Materials/M_ky_base_anime"
 			]
 		},
 		{
 			"ShaderMapHash": "9CC9BCFB1252CD82B805F55F219E2DC1B1C5BCF4",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_Default_Blend_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "E2A358FC6D9334E7A467C0F53E2A8004AA818482",
+			"Assets": [
+				"/Game/FXVarietyPack/Materials/M_ky_dynDust",
+				"/Game/VFX/FXVarietyPack/Materials/M_ky_dynDust"
 			]
 		},
 		{
@@ -999,7 +1365,8 @@
 		{
 			"ShaderMapHash": "B2A843FF9BDFA9910020172E94472842B7D4B573",
 			"Assets": [
-				"/Game/AIStuff/Weapon_Pack/Materials/Weapons/M_WeaponSet_1"
+				"/Game/Blueprints/AI/Weapon_Pack/Materials/Weapons/M_WeaponSet_1",
+				"/Game/Blueprints/AI/Weapon_Pack/Materials/Weapons/M_WeaponSet_2"
 			]
 		}
 	]

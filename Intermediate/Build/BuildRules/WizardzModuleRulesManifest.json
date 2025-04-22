@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Aaron\\Documents\\GitHub\\Wizardz\\Intermediate\\Source\\Wizardz.Build.cs",
+		"C:\\Users\\Aaron\\Documents\\GitHub\\Wizardz\\Intermediate\\Source\\Wizardz.Target.cs",
+		"C:\\Users\\Aaron\\Documents\\GitHub\\Wizardz\\Intermediate\\Source\\WizardzClient.Target.cs",
+		"C:\\Users\\Aaron\\Documents\\GitHub\\Wizardz\\Intermediate\\Source\\WizardzEditor.Target.cs",
+		"C:\\Users\\Aaron\\Documents\\GitHub\\Wizardz\\Intermediate\\Source\\WizardzServer.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

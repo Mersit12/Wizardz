@@ -169,6 +169,40 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Animation/ControlRigSpline/ControlRigSpline.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Control Rig Spline",
+				"Description": "Allows creation and use of splines for Control Rig",
+				"Category": "Animation",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": true,
+				"IsBetaVersion": true,
+				"IsExperimentalVersion": true,
+				"Modules": [
+					{
+						"Name": "ControlRigSpline",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "ControlRig",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/Animation/ControlRig/ControlRig.uplugin",
 			"Descriptor": 
 			{
@@ -224,40 +258,6 @@
 					},
 					{
 						"Name": "SequencerScripting",
-						"Enabled": true
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Animation/ControlRigSpline/ControlRigSpline.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Control Rig Spline",
-				"Description": "Allows creation and use of splines for Control Rig",
-				"Category": "Animation",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "https://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": true,
-				"IsBetaVersion": true,
-				"IsExperimentalVersion": true,
-				"Modules": [
-					{
-						"Name": "ControlRigSpline",
-						"Type": "Runtime",
-						"LoadingPhase": "Default"
-					}
-				],
-				"Plugins": [
-					{
-						"Name": "ControlRig",
 						"Enabled": true
 					}
 				]
@@ -376,6 +376,43 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Compositing/OpenColorIO/OpenColorIO.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 0,
+				"VersionName": "0.1",
+				"FriendlyName": "OpenColorIO (OCIO)",
+				"Description": "Provides support for OpenColorIO",
+				"Category": "Rendering",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": true,
+				"IsBetaVersion": true,
+				"Modules": [
+					{
+						"Name": "OpenColorIO",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit"
+					},
+					{
+						"Name": "OpenColorIOEditor",
+						"Type": "Editor",
+						"LoadingPhase": "PreDefault",
+						"PlatformAllowList": [
+							"Win64",
+							"Linux",
+							"Mac"
+						]
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/Compression/OodleNetwork/OodleNetwork.uplugin",
 			"Descriptor": 
 			{
@@ -433,6 +470,213 @@
 				"Plugins": [
 					{
 						"Name": "SignificanceManager",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Developer/Concert/ConcertMain/ConcertMain.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "0.2",
+				"FriendlyName": "Concert - Main",
+				"Description": "Allow collaborative multi-users sessions in the Editor",
+				"Category": "Networking",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": false,
+				"IsBetaVersion": true,
+				"SupportedPrograms": [
+					"UnrealMultiUserServer",
+					"UnrealMultiUserSlateServer",
+					"UnrealRecoverySvc",
+					"CrashReportClientEditor"
+				],
+				"Modules": [
+					{
+						"Name": "Concert",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PreDefault",
+						"ProgramAllowList": [
+							"UnrealMultiUserServer",
+							"UnrealMultiUserSlateServer",
+							"UnrealRecoverySvc",
+							"CrashReportClientEditor"
+						]
+					},
+					{
+						"Name": "ConcertClient",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PreDefault",
+						"ProgramDenyList": [
+							"UnrealMultiUserServer",
+							"UnrealMultiUserSlateServer",
+							"UnrealRecoverySvc",
+							"CrashReportClientEditor"
+						]
+					},
+					{
+						"Name": "ConcertServer",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PreDefault",
+						"ProgramAllowList": [
+							"UnrealMultiUserServer",
+							"UnrealMultiUserSlateServer",
+							"UnrealRecoverySvc",
+							"CrashReportClientEditor"
+						]
+					},
+					{
+						"Name": "ConcertTransport",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PreDefault",
+						"ProgramAllowList": [
+							"UnrealMultiUserServer",
+							"UnrealMultiUserSlateServer",
+							"UnrealRecoverySvc",
+							"CrashReportClientEditor"
+						]
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/ConcertSyncClient.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "0.2",
+				"FriendlyName": "Concert Sync - Client",
+				"Description": "Client plugin to enables multi-users editor sessions when connecting to a Concert Server",
+				"Category": "Networking",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": true,
+				"IsBetaVersion": true,
+				"Modules": [
+					{
+						"Name": "ConcertSyncClient",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "Default"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "ConcertSyncCore",
+						"Enabled": true
+					},
+					{
+						"Name": "ConcertMain",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/ConcertSyncCore.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "0.2",
+				"FriendlyName": "Concert Sync Core",
+				"Description": "Shared plugin for Concert Sync client and server plugins",
+				"Category": "Networking",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": false,
+				"IsBetaVersion": true,
+				"SupportedPrograms": [
+					"UnrealMultiUserServer",
+					"UnrealMultiUserSlateServer",
+					"UnrealRecoverySvc",
+					"CrashReportClientEditor"
+				],
+				"Modules": [
+					{
+						"Name": "ConcertSyncCore",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PreDefault",
+						"ProgramAllowList": [
+							"UnrealMultiUserServer",
+							"UnrealMultiUserSlateServer",
+							"UnrealRecoverySvc",
+							"CrashReportClientEditor"
+						]
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "ConcertMain",
+						"Enabled": true
+					},
+					{
+						"Name": "SQLiteCore",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Developer/Concert/ConcertUI/ConcertSharedSlate/ConcertSharedSlate.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "0.2",
+				"FriendlyName": "Concert Shared Slate",
+				"Description": "Contains UI that is shared for server and client UI modules",
+				"Category": "Networking",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": false,
+				"IsBetaVersion": true,
+				"SupportedPrograms": [
+					"UnrealMultiUserServer",
+					"UnrealMultiUserSlateServer",
+					"UnrealRecoverySvc",
+					"CrashReportClientEditor"
+				],
+				"Modules": [
+					{
+						"Name": "ConcertSharedSlate",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "Default",
+						"ProgramAllowList": [
+							"UnrealMultiUserServer",
+							"UnrealMultiUserSlateServer",
+							"UnrealRecoverySvc",
+							"CrashReportClientEditor"
+						]
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "ConcertMain",
+						"Enabled": true
+					},
+					{
+						"Name": "ConcertSyncCore",
 						"Enabled": true
 					}
 				]
@@ -538,6 +782,56 @@
 						"Name": "BlueprintHeaderView",
 						"Type": "Editor",
 						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Editor/ConsoleVariablesEditor/ConsoleVariables.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Console Variables Editor",
+				"Description": "Save, load and control Console Variables (cvars) from this panel using Slate.",
+				"Category": "Virtual Production",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": true,
+				"IsBetaVersion": true,
+				"Modules": [
+					{
+						"Name": "ConsoleVariablesEditor",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "Default"
+					},
+					{
+						"Name": "ConsoleVariablesEditorRuntime",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "ConcertSyncClient",
+						"Enabled": true
+					},
+					{
+						"Name": "ConcertSyncCore",
+						"Enabled": true
+					},
+					{
+						"Name": "ConcertMain",
+						"Enabled": true
+					},
+					{
+						"Name": "ConcertSharedSlate",
+						"Enabled": true
 					}
 				]
 			}
@@ -931,6 +1225,38 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Enterprise/VariantManagerContent/VariantManagerContent.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Variant Manager Content",
+				"Description": "Data classes and assets for the Variant Manager plugin",
+				"Category": "Editor",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "https://docs.unrealengine.com/en-US/WorkingWithContent/Importing/Datasmith/",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"IsBetaVersion": true,
+				"Modules": [
+					{
+						"Name": "VariantManagerContent",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit"
+					},
+					{
+						"Name": "VariantManagerContentEditor",
+						"Type": "Editor",
+						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/Enterprise/VariantManager/VariantManager.uplugin",
 			"Descriptor": 
 			{
@@ -959,38 +1285,6 @@
 					{
 						"Name": "VariantManagerContent",
 						"Enabled": true
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Enterprise/VariantManagerContent/VariantManagerContent.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Variant Manager Content",
-				"Description": "Data classes and assets for the Variant Manager plugin",
-				"Category": "Editor",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "https://epicgames.com",
-				"DocsURL": "https://docs.unrealengine.com/en-US/WorkingWithContent/Importing/Datasmith/",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"IsBetaVersion": true,
-				"Modules": [
-					{
-						"Name": "VariantManagerContent",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit"
-					},
-					{
-						"Name": "VariantManagerContentEditor",
-						"Type": "Editor",
-						"LoadingPhase": "Default"
 					}
 				]
 			}
@@ -1093,38 +1387,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Experimental/ChaosCloth/ChaosCloth.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Chaos Cloth",
-				"Description": "Adds Chaos Cloth Module.",
-				"Category": "Physics",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "https://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "ChaosCloth",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit"
-					}
-				],
-				"Plugins": [
-					{
-						"Name": "ChaosCaching",
-						"Enabled": true
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Experimental/ChaosClothEditor/ChaosClothEditor.uplugin",
 			"Descriptor": 
 			{
@@ -1151,6 +1413,38 @@
 				"Plugins": [
 					{
 						"Name": "ChaosCloth",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Experimental/ChaosCloth/ChaosCloth.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Chaos Cloth",
+				"Description": "Adds Chaos Cloth Module.",
+				"Category": "Physics",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "ChaosCloth",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "ChaosCaching",
 						"Enabled": true
 					}
 				]
@@ -2087,6 +2381,47 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Marketplace/LockOnTarget/LockOnTarget.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.6.2",
+				"FriendlyName": "LockOnTarget",
+				"Description": "Lock On Target system",
+				"Category": "Gameplay",
+				"CreatedBy": "Ivan Baktenkov J1blCblu",
+				"CreatedByURL": "https://github.com/J1blCblu",
+				"DocsURL": "https://github.com/J1blCblu/LockOnTarget/wiki",
+				"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/d58106fca28446ec88caad16c5a35fe8",
+				"SupportURL": "https://github.com/J1blCblu/LockOnTarget/issues",
+				"EngineVersion": "5.3.0",
+				"CanContainContent": true,
+				"Installed": true,
+				"Modules": [
+					{
+						"Name": "LockOnTarget",
+						"Type": "Runtime",
+						"LoadingPhase": "PreDefault",
+						"PlatformAllowList": [
+							"Win64",
+							"Linux"
+						]
+					},
+					{
+						"Name": "LockOnTargetDev",
+						"Type": "DeveloperTool",
+						"LoadingPhase": "Default"
+					},
+					{
+						"Name": "LockOnTargetEditor",
+						"Type": "Editor",
+						"LoadingPhase": "PostEngineInit"
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin",
 			"Descriptor": 
 			{
@@ -2624,6 +2959,103 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/MovieScene/MovieRenderPipeline/MovieRenderPipeline.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.3",
+				"FriendlyName": "Movie Render Queue",
+				"Description": "Advanced movie rendering pipeline for use in creating rendered cinematics or other multi-media creation.",
+				"Category": "Rendering",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": true,
+				"Modules": [
+					{
+						"Name": "MovieRenderPipelineCore",
+						"Type": "Runtime",
+						"LoadingPhase": "Default",
+						"PlatformAllowList": [
+							"Mac",
+							"Win64",
+							"Linux"
+						]
+					},
+					{
+						"Name": "MovieRenderPipelineSettings",
+						"Type": "Runtime",
+						"LoadingPhase": "Default",
+						"PlatformAllowList": [
+							"Mac",
+							"Win64",
+							"Linux"
+						]
+					},
+					{
+						"Name": "MovieRenderPipelineRenderPasses",
+						"Type": "Runtime",
+						"LoadingPhase": "Default",
+						"PlatformAllowList": [
+							"Mac",
+							"Win64",
+							"Linux"
+						]
+					},
+					{
+						"Name": "MovieRenderPipelineEditor",
+						"Type": "Editor",
+						"LoadingPhase": "Default"
+					},
+					{
+						"Name": "UEOpenExrRTTI",
+						"Type": "Runtime",
+						"LoadingPhase": "Default",
+						"PlatformAllowList": [
+							"Mac",
+							"Win64",
+							"Linux"
+						]
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "ActorLayerUtilities",
+						"Enabled": true
+					},
+					{
+						"Name": "ConsoleVariables",
+						"Enabled": true
+					},
+					{
+						"Name": "EditorScriptingUtilities",
+						"Enabled": true
+					},
+					{
+						"Name": "LevelSequenceEditor",
+						"Enabled": true,
+						"Optional": true
+					},
+					{
+						"Name": "OpenColorIO",
+						"Enabled": true
+					},
+					{
+						"Name": "SequencerScripting",
+						"Enabled": true
+					},
+					{
+						"Name": "StructUtils",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/MovieScene/SequencerScripting/SequencerScripting.uplugin",
 			"Descriptor": 
 			{
@@ -2767,44 +3199,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Online Subsystem",
-				"Description": "Shared code for interacting online subsystem implementations.",
-				"Category": "Online Platform",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "https://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "OnlineSubsystem",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit"
-					}
-				],
-				"LocalizationTargets": [
-					{
-						"Name": "OnlineSubsystem",
-						"LoadingPolicy": "Always"
-					}
-				],
-				"Plugins": [
-					{
-						"Name": "OnlineBase",
-						"Enabled": true
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin",
 			"Descriptor": 
 			{
@@ -2882,6 +3276,44 @@
 					},
 					{
 						"Name": "OnlineServices",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Online Subsystem",
+				"Description": "Shared code for interacting online subsystem implementations.",
+				"Category": "Online Platform",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "OnlineSubsystem",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit"
+					}
+				],
+				"LocalizationTargets": [
+					{
+						"Name": "OnlineSubsystem",
+						"LoadingPolicy": "Always"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "OnlineBase",
 						"Enabled": true
 					}
 				]
@@ -3280,6 +3712,37 @@
 				"Modules": [
 					{
 						"Name": "CustomMeshComponent",
+						"Type": "Runtime",
+						"LoadingPhase": "PreDefault"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Runtime/Database/SQLiteCore/SQLiteCore.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "SQLite",
+				"Description": "SQLite Database",
+				"Category": "Database",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": false,
+				"SupportedPrograms": [
+					"UnrealMultiUserServer",
+					"UnrealMultiUserSlateServer",
+					"UnrealRecoverySvc"
+				],
+				"Modules": [
+					{
+						"Name": "SQLiteCore",
 						"Type": "Runtime",
 						"LoadingPhase": "PreDefault"
 					}
