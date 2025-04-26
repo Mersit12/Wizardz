@@ -159,12 +159,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "CB5D59224C373A4C9F42CE19403B613544E088C9",
-			"Assets": [
-				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/M_Master_AoRoughMet"
-			]
-		},
-		{
 			"ShaderMapHash": "A002E42678080747668D6CD361076D19D8DD00C0",
 			"Assets": [
 				"/Engine/EngineDebugMaterials/ClothMaterial"
@@ -229,8 +223,7 @@
 			"Assets": [
 				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_PickupSet_1/Materials/M_AdditiveScrollNiagara",
 				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Projectilevfx/Vfx/Materials/M_AdditiveScrollNiagara",
-				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_AdditiveScrollNiagara",
-				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/M_AdditiveScrollNiagara"
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_AdditiveScrollNiagara"
 			]
 		},
 		{
@@ -702,9 +695,7 @@
 			"Assets": [
 				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_PickupSet_1/Materials/M_sA_Aura",
 				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_PickupSet_1/Materials/MI_Aura_1",
-				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_sA_Aura",
-				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/M_sA_Aura",
-				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/MI_Aura_1"
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_sA_Aura"
 			]
 		},
 		{
@@ -816,7 +807,9 @@
 			"Assets": [
 				"/Game/VFX/WizardSpellsPack/Materials/MI_Crater36b",
 				"/Game/VFX/WizardSpellsPack/Materials/MI_Crater37b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Feather3a",
 				"/Game/VFX/WizardSpellsPack/Materials/MI_Flare21b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Flash21b",
 				"/Game/VFX/WizardSpellsPack/Materials/MI_Glow1a",
 				"/Game/VFX/WizardSpellsPack/Materials/MI_Leaf9b",
 				"/Game/VFX/WizardSpellsPack/Materials/MI_MagicCircle57b",
@@ -1092,8 +1085,7 @@
 			"ShaderMapHash": "0649C4C457C5927FC438CA0E42073BDF2B6FB27E",
 			"Assets": [
 				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Projectilevfx/Vfx/Materials/M_ABScrollNiagara",
-				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_ABScrollNiagara",
-				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/M_ABScrollNiagara"
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_ABScrollNiagara"
 			]
 		},
 		{

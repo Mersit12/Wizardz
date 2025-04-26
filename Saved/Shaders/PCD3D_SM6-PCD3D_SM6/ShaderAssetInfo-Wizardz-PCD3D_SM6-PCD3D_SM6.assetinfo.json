@@ -97,9 +97,7 @@
 			"Assets": [
 				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_PickupSet_1/Materials/M_sA_Aura",
 				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_PickupSet_1/Materials/MI_Aura_1",
-				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_sA_Aura",
-				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/M_sA_Aura",
-				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/MI_Aura_1"
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_sA_Aura"
 			]
 		},
 		{
@@ -112,8 +110,7 @@
 			"ShaderMapHash": "FFB4AF0E2A9D6DAF2664B6BE9775FFA36E3DC70A",
 			"Assets": [
 				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Projectilevfx/Vfx/Materials/M_ABScrollNiagara",
-				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_ABScrollNiagara",
-				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/M_ABScrollNiagara"
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_ABScrollNiagara"
 			]
 		},
 		{
@@ -825,8 +822,7 @@
 			"Assets": [
 				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_PickupSet_1/Materials/M_AdditiveScrollNiagara",
 				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Projectilevfx/Vfx/Materials/M_AdditiveScrollNiagara",
-				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_AdditiveScrollNiagara",
-				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/M_AdditiveScrollNiagara"
+				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_Rayvfx/Materials/M_AdditiveScrollNiagara"
 			]
 		},
 		{
@@ -1097,7 +1093,9 @@
 			"Assets": [
 				"/Game/VFX/WizardSpellsPack/Materials/MI_Crater36b",
 				"/Game/VFX/WizardSpellsPack/Materials/MI_Crater37b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Feather3a",
 				"/Game/VFX/WizardSpellsPack/Materials/MI_Flare21b",
+				"/Game/VFX/WizardSpellsPack/Materials/MI_Flash21b",
 				"/Game/VFX/WizardSpellsPack/Materials/MI_Glow1a",
 				"/Game/VFX/WizardSpellsPack/Materials/MI_Leaf9b",
 				"/Game/VFX/WizardSpellsPack/Materials/MI_MagicCircle57b",
@@ -1306,12 +1304,6 @@
 			"ShaderMapHash": "850271F3A10369833C7451A6259DD2D774717A98",
 			"Assets": [
 				"/Game/VFX/FXVarietyPack/Materials/MI_ky_auraWall02_two"
-			]
-		},
-		{
-			"ShaderMapHash": "6016C9F535063F30FBEA4D33C74B5B68B5B0732F",
-			"Assets": [
-				"/Game/VFX/WizardSpellsPack/sA_Megapack_v1/sA_SkillSet_1/Materials/M_Master_AoRoughMet"
 			]
 		},
 		{
