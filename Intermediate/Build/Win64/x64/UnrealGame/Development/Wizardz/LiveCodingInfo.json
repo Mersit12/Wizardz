@@ -1,0 +1,8 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Wizardz.cpp.obj": [
+			"Wizardz.cpp.obj"
+		]
+	}
+}

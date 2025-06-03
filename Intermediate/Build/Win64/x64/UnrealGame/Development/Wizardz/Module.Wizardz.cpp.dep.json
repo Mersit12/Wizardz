@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\julzb\\documents\\github\\wizardz\\intermediate\\build\\win64\\x64\\unrealgame\\development\\wizardz\\module.wizardz.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\julzb\\documents\\github\\wizardz\\intermediate\\build\\win64\\x64\\wizardz\\development\\core\\sharedpch.core.cpp17.h.pch",
+        "Includes": [
+            "c:\\users\\julzb\\documents\\github\\wizardz\\intermediate\\build\\win64\\x64\\unrealgame\\development\\wizardz\\definitions.wizardz.h",
+            "c:\\users\\julzb\\documents\\github\\wizardz\\intermediate\\source\\wizardz.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

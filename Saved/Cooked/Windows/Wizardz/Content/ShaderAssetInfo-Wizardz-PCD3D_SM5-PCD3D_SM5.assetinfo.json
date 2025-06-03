@@ -679,6 +679,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "E45CD680629F8233817788E10934FB10874F608E",
+			"Assets": [
+				"/Game/MedievalDungeon/Particles/Materials/M_Fire_SubUV"
+			]
+		},
+		{
 			"ShaderMapHash": "2090BC81922D093477EBF36B530C6A618F7F0949",
 			"Assets": [
 				"/Game/VFX/WizardSpellsPack/Materials/M_Trail21a"
@@ -731,7 +737,8 @@
 		{
 			"ShaderMapHash": "BB4C6B8DC8BE342B30E1311283B3B3277FF48BA2",
 			"Assets": [
-				"/Game/EssentialAnimation/MagicStaff/Demo/Particles/Materials/M_smoke_subUV"
+				"/Game/EssentialAnimation/MagicStaff/Demo/Particles/Materials/M_smoke_subUV",
+				"/Game/MedievalDungeon/Particles/Materials/M_smoke_subUV"
 			]
 		},
 		{
@@ -909,6 +916,12 @@
 			"ShaderMapHash": "E833FEAEEF2B0F3239C6AC1A4CAA7552299B7B7D",
 			"Assets": [
 				"/Game/ParagonGideon/FX/Materials/Flares/M_DarkFlare_DistShrink"
+			]
+		},
+		{
+			"ShaderMapHash": "1C18ECB026FB1D7146E4C89DB5D1165D012792C3",
+			"Assets": [
+				"/Game/MedievalDungeon/Particles/Materials/M_Heat_Distortion"
 			]
 		},
 		{
@@ -1248,7 +1261,8 @@
 		{
 			"ShaderMapHash": "5C75E1E7E38D63E0B99803C5000632CA7B951FC1",
 			"Assets": [
-				"/Game/EssentialAnimation/MagicStaff/Demo/Particles/Materials/M_radial_ramp"
+				"/Game/EssentialAnimation/MagicStaff/Demo/Particles/Materials/M_radial_ramp",
+				"/Game/MedievalDungeon/Particles/Materials/M_Radial_Gradient"
 			]
 		},
 		{

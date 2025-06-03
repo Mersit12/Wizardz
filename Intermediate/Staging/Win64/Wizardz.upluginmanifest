@@ -683,6 +683,74 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Developer/DumpGPUServices/DumpGPUServices.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Dump GPU Services",
+				"Description": "Implements automatic upload services for the DumpGPU command.",
+				"Category": "Rendering",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"IsExperimentalVersion": true,
+				"Modules": [
+					{
+						"Name": "DumpGPUServices",
+						"Type": "Runtime",
+						"LoadingPhase": "Default",
+						"TargetDenyList": [
+							"Server"
+						],
+						"TargetConfigurationDenyList": [
+							"Shipping"
+						]
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Developer/PixWinPlugin/PixWinPlugin.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "PIX for Windows GPU Capture Plugin",
+				"Description": "PIX for Windows graphics debugger integration.",
+				"Category": "Rendering",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"SupportedTargetPlatforms": [
+					"Win64"
+				],
+				"Modules": [
+					{
+						"Name": "PixWinPlugin",
+						"Type": "DeveloperTool",
+						"LoadingPhase": "PostConfigInit",
+						"PlatformAllowList": [
+							"Win64"
+						],
+						"TargetDenyList": [
+							"Server"
+						]
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/Developer/PluginUtils/PluginUtils.uplugin",
 			"Descriptor": 
 			{
@@ -704,6 +772,36 @@
 						"Name": "PluginUtils",
 						"Type": "Editor",
 						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Developer/RenderDocPlugin/RenderDocPlugin.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "RenderDoc Plugin",
+				"Description": "RenderDoc graphics debugger/profiler integration.",
+				"Category": "Rendering",
+				"CreatedBy": "Fredrik Lindh (Temaran)",
+				"CreatedByURL": "https://github.com/Temaran/UE4RenderDocPlugin",
+				"DocsURL": "https://renderdoc.org/docs/index.html",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "RenderDocPlugin",
+						"Type": "DeveloperTool",
+						"LoadingPhase": "PostConfigInit",
+						"PlatformAllowList": [
+							"Win64",
+							"Linux"
+						]
 					}
 				]
 			}
@@ -2173,6 +2271,57 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Fab/Fab.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 4,
+				"VersionName": "0.0.4",
+				"FriendlyName": "Fab",
+				"Description": "Fab Plugin",
+				"Category": "Other",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EngineVersion": "5.3.0",
+				"EnabledByDefault": true,
+				"CanContainContent": true,
+				"Modules": [
+					{
+						"Name": "Fab",
+						"Type": "Editor",
+						"LoadingPhase": "PostDefault",
+						"PlatformAllowList": [
+							"Linux",
+							"Win64",
+							"Mac"
+						]
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "Interchange",
+						"Enabled": true,
+						"PlatformAllowList": [
+							"Linux",
+							"Win64",
+							"Mac"
+						]
+					},
+					{
+						"Name": "EditorScriptingUtilities",
+						"Enabled": true
+					},
+					{
+						"Name": "EOSShared",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/Importers/AlembicImporter/AlembicImporter.uplugin",
 			"Descriptor": 
 			{
@@ -3131,6 +3280,40 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Online/EOSShared/EOSShared.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "EOS Shared",
+				"Description": "Responsible for init/shutdown of the EOSSDK runtime library.",
+				"Category": "Online Platform",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "EOSShared",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit",
+						"PlatformAllowList": [
+							"Android",
+							"IOS",
+							"Linux",
+							"LinuxArm64",
+							"Mac",
+							"Win64"
+						]
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/Online/OnlineBase/OnlineBase.uplugin",
 			"Descriptor": 
 			{
@@ -3909,6 +4092,40 @@
 							"Mac",
 							"Linux"
 						]
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Runtime/InputDebugging/InputDebugging.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Input Debugging",
+				"Description": "Input debugging and visualization.",
+				"Category": "Input",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "InputDebugging",
+						"Type": "Runtime",
+						"LoadingPhase": "Default",
+						"TargetConfigurationDenyList": [
+							"Shipping"
+						]
+					},
+					{
+						"Name": "InputDebuggingEditor",
+						"Type": "Editor",
+						"LoadingPhase": "Default"
 					}
 				]
 			}
